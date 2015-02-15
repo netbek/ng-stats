@@ -56,6 +56,6 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-gh-pages');
 
-	grunt.registerTask('release', ['clean', 'copy', 'uglify', 'gh-pages']);
+	grunt.registerTask('release', ['clean', 'copy', 'uglify']);
 	grunt.registerTask('default', ['express:server', 'watch'])
 };

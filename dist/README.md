@@ -1,4 +1,6 @@
-# ng-stats
+# ng-stats-compat
+
+[ng-stats](https://github.com/kentcdodds/ng-stats) for IE 8 (no graph)
 
 Little utility to show stats about your page's angular digest/watches. This library currently has a simple script to
 produce a chart (see below). It also creates a module called `angularStats` which has a directive called `angular-stats`
